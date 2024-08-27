@@ -1,0 +1,37 @@
+Seçtiğiniz tarih ve filtrelemelerde gelen otelleri sıralama yapıldığı zaman otel detayı için inceleyip geri gelindiğinde sıranın başına gitmesi sorunu
+
+Test cihazı: Apple Iphone 11
+
+Test cihazı sürümü: 
+
+Test cihazı ekran çözünürlüğü: 
+Test cihazı arayüz sürümü: 
+
+Uygulama Sürümü: 
+
+Sorunun Tekrarlanma Tarih-Saati: 
+
+Ön Koşullar:
+
+İlgili tarihlerde otel aranmalı
+
+Aşama:
+
+"Sırala" → "Otel incele" ekranı
+
+Senaryo:
+
+İlgili tarihlerde ve kişi sayısına göre oteller listelenir.
+
+Listelenen oteller "Sıralama" butonu ile sıralanır.
+
+Ekran aşağı kaydırılarak listenin aşağısına inilir.
+
+Herhangi bir oteli incelenmek için girilir.
+
+Oluşan Durum:
+
+İncelenen otelden geri listeye dönüldüğünde sıralama liste başına geri döner.
+
+Beklenen Sonuç: İncelenen otelden geri listeye dönüldüğünde geri dönülen otelin liste sırası durumuna geri getirilmesi. 
+Örneğin ;Fiyat olarak düşükten-yükseğe sıralanan bir listede. 1000 TL, 5000 TL, 15000 TL bandındaki otellerden 5000 TL bandındaki otel incelenip geri sıralanmış listeye dönüldüğünde en düşük ücretli oteli tekrardan getirmesi, aslında sıranın seçildiği 5000 TL otelinde kalması gereklidir.
